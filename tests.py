@@ -2,7 +2,7 @@ import unittest
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 
-class SeleniumTest(unittest.TestCase):
+class WebsiteTest(unittest.TestCase):
 
     def setUp(self):
         self.browser = webdriver.Chrome()
@@ -22,7 +22,6 @@ class SeleniumTest(unittest.TestCase):
         addnumbercomparison = self.browser.find_element_by_link_text("Add Number Comparison").click()
         #refreshes page
         self.browser.refresh()
-        #Add Number Comparison
         
         #cleans up actions 
     def tearDown(self):
