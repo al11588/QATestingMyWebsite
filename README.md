@@ -8,7 +8,7 @@ Website: https://al11588.github.io/
 
 # Tests I Created
 
-* Test Number 1: This test ensures that I am able to reace my [Add Number Comparison] example in the [PythonWorkshopDay1] repository.
+* Test Number 1: This test ensures that I am able to reach my [Add Number Comparison] example in the [PythonWorkshopDay1] repository.
 
 
 [Add Number Comparison]:https://github.com/al11588/PythonWorkshopDay1/tree/master/example3
