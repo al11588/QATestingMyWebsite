@@ -10,13 +10,21 @@ class SeleniumTest(unittest.TestCase):
         # navigate to my website: https://al11588.github.io/ 
         self.browser.get('https://al11588.github.io/')
 
-        #1. testing Linkedin button.
+        #1. testing Github button.
     def testNumber1(self):
-    	#clicks linked button
-        linkedIn = self.browser.find_element_by_css_selector("a.fa-linkedin").click()
-
-
-        #searchfield return
+    	#clicks GitHub button
+        github = self.browser.find_element_by_css_selector("a.fa-github").click()
+        #clicks on repository text
+        repositories = self.browser.find_element_by_css_selector("a.underline-nav-item").click()
+        #clicks on python worshop text
+        pythonworkshop = self.browser.find_element_by_link_text("PythonWorkshopDay1").click()
+        #clicks on add number comparison text
+        addnumbercomparison = self.browser.find_element_by_link_text("Add Number Comparison").click()
+        #refreshes page
+        self.browser.refresh()
+        #Add Number Comparison
+        
+        #cleans up actions 
     def tearDown(self):
         self.browser.close()
 
